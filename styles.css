@@ -1,0 +1,304 @@
+body{
+	font-family: 'Montserrat', sans-serif !important;
+	color: #00204A;
+}
+input, select, textarea {
+	font-family: 'Montserrat', sans-serif !important;
+	color: #00204A !important;
+	font-weight: 400 !important;
+	font-size: 12px !important;
+	line-height: 15px !important;
+}
+.container-fluid{
+	max-width: 1120px;
+	padding: 0 !important;
+}
+.header-container>a{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 23px;
+	text-decoration: none;
+	color: #00204A;
+}
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	height: 90px;
+	background-color: #F8F8FF;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+main{
+	background-color: #F8F8FF;
+}
+.heading{
+	background-color: #233C96;
+	height: 290px;
+	padding-bottom: 42px;
+}
+h1{
+	font-weight: bold !important;
+	font-size: 24px !important;
+	color: #F8F8FF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main-container{
+	padding: 50px 0 100px 0 !important;
+}
+h2{
+	padding: 20px;
+	margin: 0;
+	line-height: 23px;
+}
+h2>a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	color: #00204A;
+}
+.article-img{
+	width: 600px;
+	height: 293px;
+}
+.main-article{
+	max-width: 600px;
+	margin-bottom: 100px;
+	background-color: #fff;
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+.article-text{
+	padding: 20px 20px 0 20px;
+	font-weight: 500;
+	font-size: 12px;
+}
+.article-date{
+	color: #30489C;
+	font-weight: normal;
+	font-size: 16px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+}
+footer{
+	background-color: #00204A;
+	height: 280px;
+	color: #F8F8FF;
+}
+.footer-row-2{margin-top: 80px;}
+.footer-num{font-size: 36px;}
+.footer-info1,.footer-info3,.footer-info2>a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #F8F8FF;
+}
+.footer-info3{width: 338px;}
+.article-container{
+	padding: 50px 0 200px 0 !important;
+}
+.article-image{
+	width: 1120px;
+	height: 550px;
+	border-radius: 4px;
+}
+.article-container-text{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #00204A;
+	margin: 25px 0 50px 0;
+}
+h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.comm{
+	margin-bottom: 50px;
+}
+.avatar{
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+}
+.comm-r-part{width: 1045px;}
+.comm-r-part-row1{
+	width: 669px;
+	margin-bottom: 8px;
+}
+.nickname{
+	font-size: 14px;
+	font-weight: 600;
+}
+.date-of-comm{
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+.comm-text{font-size: 14px;}
+
+.form-control::placeholder {
+	color:#00204A;
+	font-size: 14px;
+}
+#text_message{margin-bottom: 20px;}
+.btn-primary{
+	background-color: #30489C;
+	width: 205px;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.h1-heading {
+	text-shadow: none;
+	color: #00204A;
+	margin-bottom: 50px;
+}
+/* COVID-page */
+.bron-card {
+	margin-bottom: 50px;
+	background-color: #fff;
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	width: 669px;
+}
+
+.bron-card-img{
+	width: 250px;
+}
+.bron-card-descr {
+	padding: 40px;
+	width: 100%;
+}
+.bron-card-row1 {
+	margin-bottom: 25px;
+}
+.bron-card-row1>h3 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 0;
+	width: 200px;
+}
+.bron-card-row1>span {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+}
+.bron-card-text {
+	width: 216px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+}
+.btn-outline-primary {
+	border: 1px solid #233C96;
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 30px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #233C96;
+
+}
+.booking-container {
+	padding: 50px 0 150px 0 !important;
+}
+.covid-container {
+	padding: 50px 0 150px 0 !important;
+}
+.covid-block {
+	background-color: #fff;
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 40px 40px 40px 20px;
+	margin-bottom: 50px;
+}
+.covid-block > h3 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+.covid-block > p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+}
+.covid-inputs {
+	width: 400px;
+	height: 40px;
+	background: #E0E3FF;
+	border: none;
+	box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.06);
+	border-radius: 4px;
+}
+.covid-forms {
+	margin-bottom: 20px;
+}
+.covid-forms > label {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+
+	margin-bottom: 10px;
+}
+.btn-success {
+	width: 400px;
+	height: 50px;
+	background-color: #233C96;
+	color: #fff !important;
+	font-weight: 700 !important;
+	font-size: 14px !important;
+}
+.ROS-card {
+	background-color: #fff;
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 40px 40px 40px 20px;
+	margin-bottom: 50px;
+	width: 486px;
+}
+.ROS-card-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #00204A;
+	text-shadow: none;
+	margin-bottom: 48px;
+}
+.ROS-forms > label {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	color: #00204A;
+}
+.ROS-forms {
+	margin-bottom: 30px;
+}
+.reg_of_service-container {
+	margin-top: 50px;
+}
+.btn-ROS {
+	margin-bottom: 200px;
+	width: 486px;
+}
+.ROS-inputs {
+	width: 400px;
+	height: 40px;
+	background: #E0E3FF;
+	border: none;
+	box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.06);
+	border-radius: 4px;
+}
